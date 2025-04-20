@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 120px;
+    margin: 40px auto 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .signin-box {
+    width: 350px;
+    background-color: white;
+    padding: 20px 26px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .signin-box h1 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+  
+  .signin-box label {
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .signin-box input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .signin-box button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .signin-box button:hover {
+    background-color: #e2b33b;
+  }
+  
+  .conditions {
+    font-size: 12px;
+    color: #555;
+    margin-top: 15px;
+  }
+  
+  .conditions a {
+    color: #0066c0;
+    text-decoration: none;
+  }
+  
+  .help-link {
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #0066c0;
+    text-decoration: none;
+  }
+  
+  .create-account {
+    width: 350px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .create-account button {
+    width: 100%;
+    padding: 8px;
+    background-color: #e7e9ec;
+    border: 1px solid #adb1b8;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .create-account button:hover {
+    background-color: #d7d9dc;
+  }
+  

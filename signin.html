@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign-In | Amazon Demo</title>
+  <link rel="stylesheet" href="signin.css">
+  <link rel="icon" href="https://www.amazon.com/favicon.ico">
+</head>
+<body>
+  <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo" class="logo">
+
+    <div class="signin-box">
+      <h1>Sign-In</h1>
+      <form action="signin.php" method="POST">
+        <label for="email">Email or mobile phone number</label>
+        <input type="email" name="email" placeholder="Email" required>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Password" required>
+
+        <button type="submit">Sign-In</button>
+
+        <p class="conditions">
+          By continuing, you agree to Amazon's <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice</a>.
+        </p>
+
+        <a href="#" class="help-link">Need help?</a>
+      </form>
+    
+    </div>
+
+    <div class="create-account">
+      <p>New to Amazon?</p>
+      <button onclick="location.href='signup.html'">Create your Amazon account</button>
+    </div>
+  </div>
+</body>
+</html>
